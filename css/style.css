@@ -225,6 +225,10 @@ footer a{
     padding: 20px;
 }
 
+.margin20{
+    margin: 20px;
+}
+
 .space-evently{
 
     justify-content: space-evenly;
@@ -273,6 +277,12 @@ footer a{
     padding: 25px;
   }
 
+  #instafeed-container img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    padding: 20px;
+}
  
 
 

@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Projects</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/myWork.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-<style type="text/css">
-    a img{ 
-        width: 25%;
-    }
-</style>
+
 </head>
 <body>
     <header>
@@ -42,20 +40,60 @@
           </div>
 
 
-          <div id="instafeed-container"></div>
-  
-  
-      <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-      <script type="text/javascript">
-      var userFeed = new Instafeed({
-          get: 'user',
-          target: "instafeed-container",
-          resolution: 'low_resolution',
-          accessToken: 'YOUIGQWROUTVkZA185NjlpemNLQjF3UU1yb0ctaDl4UHQzOC1IRlNLazF3QXg1eGRUTHlwZAE1fd1RQQ0tla3MzWEhwZAWFlcGN3c1MteXEybnlGWVpBS1ZAEUEZAvb1hPZAVY2VmxzTjlVTFVZAUkhSWE9RRUNfTVVtNGJ1U0UZD'
-      });
-      userFeed.run();
-      </script>
 
+          <h3 class="padding20 center">Books I like:</h3>
+
+        <section class="flex">
+
+            <div class="card padding20 inline-block margin20" style="width: 18rem;">
+                <img src="images/assata.jpg" class="card-img-top" alt="Assata Shakur">
+                <div class="card-body">
+                  <p class="card-text">Assata Shakur's autobiography, an incedibly captiavting book that has be rereading often. Shout out to my sister as it was her book initially.</p>
+                </div>
+              </div>
+
+              <div class="card padding20 inline-block margin20" style="width: 18rem;">
+                <img src="images/heartOf.jpg" class="card-img-top" alt="The Heart of the Buddha's Teaching">
+                <div class="card-body">
+                  <p class="card-text">The Heart of the Buddha's Teaching: Great read for all who are looking for peace and calmness.</p>
+                </div>
+              </div>
+              <div class="card padding20 inline-block margin20" style="width: 18rem;">
+                <img src="images/Menchu.jpg" class="card-img-top" alt="The Heart of the Buddha's Teaching">
+                <div class="card-body">
+                  <p class="card-text">I, Rigoberta Menchu: An Indian Woman in Guatemala. This book explores the beautiful Inidigenous peoples of Guatemala and their way of life.</p>
+                </div>
+              </div>
+              <div class="card padding20 inline-block margin20" style="width: 18rem;">
+                <img src="images/allaboutlove.jpg" class="card-img-top" alt="The Heart of the Buddha's Teaching">
+                <div class="card-body">
+                  <p class="card-text">All About Love: I can not rave enough about this book. A must read for all ages as you strive for the love we all long for.</p>
+                </div>
+              </div>
+
+        </section>
+
+
+
+
+          <section>
+
+                <h3 class="padding20 center">Photography Instagram:</h3>
+
+                        <div id="instafeed-container"></div>
+                
+                    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+                    <script type="text/javascript">
+                    var userFeed = new Instafeed({
+                        get: 'user',
+                        target: "instafeed-container",
+                        resolution: 'low_resolution',
+                        accessToken: 'IGQWROUTVkZA185NjlpemNLQjF3UU1yb0ctaDl4UHQzOC1IRlNLazF3QXg1eGRUTHlwZAE1fd1RQQ0tla3MzWEhwZAWFlcGN3c1MteXEybnlGWVpBS1ZAEUEZAvb1hPZAVY2VmxzTjlVTFVZAUkhSWE9RRUNfTVVtNGJ1U0UZD'
+                    });
+                    userFeed.run();
+                    </script>
+
+            </section>
 
     </section>
 
