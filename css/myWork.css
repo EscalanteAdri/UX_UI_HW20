@@ -184,7 +184,7 @@
       .subcontent {
 
         @media (min-width: 688px) {
-          padding: 50px 30px;
+          padding: 10px 10px;
         }
 
         @media (max-width: 687px) {body {

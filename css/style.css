@@ -247,6 +247,11 @@ footer a{
     width: 100px;
 }
 
+.phoneScreenImg{
+    width: 300px;
+    padding: 20px;
+}
+
 .border {
     border-style: solid;
     border-color: #4F7D50;
