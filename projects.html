@@ -83,7 +83,7 @@
           <section>
 
                 <h3 class="padding20 center">Photography Instagram:</h3>
-
+                <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.js"></script>
                         <div id="instafeed-container"></div>
                 
                     <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
@@ -92,7 +92,7 @@
                         get: 'user',
                         target: "instafeed-container",
                         resolution: 'low_resolution',
-                        accessToken: 'IGQWRNSjFYNnFSbnNRcTlmTjdEeTRlVGtCOHAyc1MzLW5lZAnBVVmpDT21QMnZA1ZAVhEU0xVLUxmdWpqNnpMMmJpTjIyOUVSd0ZA1bmdsYXhucF9VN19YU2hPZA2k4RElHdHRwT3RUcmx3UE42UUU5dWFNWWtuZAWpLV28ZD'
+                        accessToken: '${{ secrets.INSTAGRAM_KEY }}'
                     });
                     userFeed.run();
                     </script>
